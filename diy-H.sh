@@ -25,8 +25,8 @@ echo "RELEASE_KEY_PASSWORD=TVBoxOSC" >>$CURRENT_DIR/$DIR/gradle.properties
 #sed -i 's/download.01.org\/crosswalk\/releases\/crosswalk\/android\/maven2/raw.githubusercontent.com\/lm317379829\/TVBoxDIY\/main/g' $CURRENT_DIR/$DIR/build.gradle
 
 #名称修改
-sed -i 's/TVBox/Me₸v-H/g' $CURRENT_DIR/$DIR/app/src/main/res/values/strings.xml
-sed -i 's/TVBox/Me₸V-H/g' $CURRENT_DIR/$DIR/app/src/main/res/raw/index.html
+sed -i 's/TVBox/Me₸v-HP/g' $CURRENT_DIR/$DIR/app/src/main/res/values/strings.xml
+sed -i 's/TVBox/Me₸V/g' $CURRENT_DIR/$DIR/app/src/main/res/raw/index.html
 sed -i 's/hfr1107/jinqiusky/g' $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/util/RemoteConfig.java
 sed -i 's/homebo-x_release/njfkib/g' $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/util/RemoteConfig.java
 #sed -i 's/hfr1107/17hd.ml:81/g' $CURRENT_DIR/$DIR/app/build.gradle
